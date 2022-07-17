@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <title> Harshit's Resume </title>
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+  ></script>
+
+</head>
+<body>
+
+    <header id="body-header">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#positionOfResponsibilty">Position of Responsibility</a>
+                </li>
+                <li>
+                    <a href="#academicProject">Academic Project</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">
+                    Harshit Garg
+                </h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/harshit-garg-6ab869218" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/harshit020" target="_blank">
+                            <i class="fa-brands  fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:gargh5555@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="C:\Users\HP\Downloads\Harshit.jpeg">
+            </div>
+            <p class="text-center about-text"> An ambitious and motivated final year undergraduate, specializing B.E. in Electronics (Instrumentation and Control) from Thapar Institute of Engineering & Technology, Patiala. Looking for an internship / training opportunity at an established organization to employ my Knowledge and polish my skills while jointly contributing to growth of organization. </p>
+
+        </section>
+
+        <section id="skills">
+            <div class="section-heading">
+                <i class="fas fa-chalkboard-teacher"></i><span>Skills</span>
+            </div>
+            <div id="skills-container">
+                <div class="skill-progress"><div id="skill-1" class="eighty-percent"><div class="skill-name">C</div></div></div>
+                <div class="skill-progress"><div id="skill-2" class="eighty-five-percent"><div class="skill-name">C++</div></div></div>
+                <div class="skill-progress"><div id="skill-3" class="eighty-percent"><div class="skill-name">HTML</div></div></div>
+                <div class="skill-progress"><div id="skill-4" class="fifty-percent"><div class="skill-name">CSS</div></div></div>
+                <div class="skill-progress"><div id="skill-5" class="seventy-percent"><div class="skill-name">OS</div></div></div>
+                <div class="skill-progress"><div id="skill-6" class="eighty-five-percent"><div class="skill-name">DBMS</div></div></div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="section-heading">
+                <i class="fas fa-graduation-cap"></i><span>Education</span>
+            </div>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <h1>Graduation</h1>
+                        <h4 class="no-bold">Thapar University, Patiala</h4>
+                        <h6 class="no-bold">August 2019 - June 2023</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>For a student, college life is the beginning of adulthood. In Thapar, along with academics, i also got indulged in recreational activities. I also participated in various group activities and joined various societies that helped me to learn about myself and my peers. Thapar prepared me to face the real world. In today’s scenario, the job market is quite challenging, but still, i am ready to give my best shot.</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Higher Education</h1>
+                        <h4 class="no-bold">Baba Isher Singh Nanaksar Senior Secondary Public School</h4>
+                        <h6 class="no-bold">April 2017 - March 2019</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>During this time, i prepared for JEE-MAINS and learned about physics, chemistry and maths in depth.</p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="divider-icon">
+                        <i class="fas fa-car-side"></i></i>
+                    </div>
+                </div>      
+            </div>
+        </section>
+
+        <section id="positionOfResponsibilty">
+            <div class="section-heading">
+                <i class="fas fa-briefcase"></i><span>Positions of Responsibility</span>
+            </div>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Head of Creativity</h1>
+                        <h4 class="no-bold">Virsa Society</h4>
+                        <h6 class="no-bold">June 2021 - May 2022</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Virsa is a cultural society which aims at preserving and promoting the rich heritage of Punjab. I guided 50+ juniors to create creative decorations for our cultural fests.</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Core Member</h1>
+                        <h4 class="no-bold">Mudra Society</h4>
+                        <h6 class="no-bold">July 2020 - May 2021</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Mudra, performing arts and music society which gives opportunity to students to showcase their talent in various arts like Drama, various forms of Dance, poetry and Singing in various Languages. Due to covid pandemic, the event took place on online platform. I helped society with technical aspect.</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Team Member</h1>
+                        <h4 class="no-bold">IICHE Society</h4>
+                        <h6 class="no-bold">July 2020 - May 2021</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Indian Institute of Chemical Engineers (IICHE) is an organization which was established Decades ago to conduct events related to engineering. We introduced our trademark event- WarTrade in which over 200 students participated.</p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="divider-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                </div>      
+            </div>
+        </section>
+
+        
+
+        <section id="academicProject">
+            <div class="section-heading">
+                <i class="fas fa-list"></i><span>Academic Project</span>
+            </div>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <h1>Engineering Design Project 1- Mangonel</h1>
+                        <h6 class="no-bold">Jan 2020 - May 2020</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>• Working experience on Arduino IDE & various Integrated chips.<br>
+                           • Conceptualized its physics on Microsoft Excel.<br>
+                           • Designed it with the knowledge of Engineering Drawing.<br>
+                       </p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Engineering Design Project 2- Buggy</h1>
+                        <h6 class="no-bold">July 2020 - Dec 2020</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>• Hands on experience on TinkerCAD Simulator and Autodesk EAGLE.<br>
+                           • Designed Schematic of project on Autodesk Eagle.<br>
+                           • Created 3-D model and simulated different sensors using TinkerCAD simulator.<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Arduino Based Smart Dustbin</h1>
+                        <a href="https://www.tinkercad.com/things/fUBOJHF9FWK-smart-dustbin-arduino/editel?sharecode=TeFru9xP0hQDueXuw2mzYqZfIi672fVfMDM1IDqiK8Q" target="_blank"> Smart Dustbin </a>
+                        <h6 class="no-bold">Nov 2020 - Dec 2020</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>• Developed Smart Dustbin using TinkerCAD Simulator.<br>
+                           • Used Ultrasonic sensor to detect proximity and Micro servo to open/close bin.<br>
+                           • Used Potentiometer to check dry/wet garbage by measuring its moisture level.<br>
+                       </p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="divider-icon">
+                        <i class="fa-solid fa-truck-monster"></i>
+                    </div>
+                </div>      
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-heading">
+                <i class="far fa-address-card"></i><span>Contact</span>
+            </div>
+            <div class="contact-container">
+                <!--<div class="contact-form-container">
+                    <form>
+                        <div><input type="text" placeholder="Your Name" class="input-field" required></div>
+                        <div><input type="email" placeholder="Your Email" class="input-field" required></div>
+                        <div><textarea class="input-field" placeholder="Message"></textarea></div>
+                        <div><a href="mailto:gargh5555@gmail.com"><input type="button" class="white-border-transparent-button" id="submit" value="SEND MESSAGE"></a></div>
+                    </form>
+                </div>-->
+                <div class="address-container">
+                    <p>The following e-mail and phone numbers are only for professional purposes. Contact them only if you are hiring for internships in Front-end Development/ Software development.</p>
+
+                    <h2>My Info</h2>
+                    <div><i class="fas fa-map-marker-alt"></i>Ludhiana, Punjab, India</div>
+                    <div><i class="fas fa-mobile"></i>+91-7986237077</div>
+                    <div><i class="far fa-envelope"></i>gargh5555@gmail.com</div>
+                </div>
+            </div>
+            <div class="bottom-list">
+                <ul class="horizontal-list text-center social-links" style="margin: 0;">
+                     <li>
+                        <a href="https://www.linkedin.com/in/harshit-garg-6ab869218" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/harshit020" target="_blank">
+                            <i class="fa-brands  fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:hgarg_be19@thapar.edu" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
